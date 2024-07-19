@@ -8,7 +8,10 @@ function Project() {
     <div className="mb-24 h-[400px] w-full sm:mb-0 md:h-screen">
       <div>
         <p className="font-poppins mx-auto w-[50%] pb-10 pt-8 text-center text-2xl tracking-wider text-gray-900 lg:text-3xl">
-          Projects
+          Some Snapshots of Last Year
+        </p>
+        <p className="font-poppins mx-auto w-[50%] pb-12 pt-8 text-center text-sm tracking-wider text-gray-900 lg:text-lg">
+          We met around this time of year exactly a year ago. I've spent many moments with you and enjoyed every single one. You are so fun!
         </p>
       </div>
       <div className="mx-auto mb-2 grid w-[90%] grid-cols-1 gap-4 sm:mb-8 md:grid-cols-2">
@@ -22,11 +25,8 @@ function Project() {
               navigate("/projectlist");
             }}
           >
-            <span>View Full Project Archive</span>
-            <span class="absolute bottom-0 left-0 top-6 h-[2px] w-full bg-gray-900 opacity-0 transition-opacity group-hover:opacity-100"></span>
-          </div>
 
-          <FaLocationArrow />
+          </div>
         </p>
       </div>
     </div>

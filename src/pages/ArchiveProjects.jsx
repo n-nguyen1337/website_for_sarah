@@ -38,7 +38,7 @@ function ArchiveProjects() {
             <h2 className="font-poppins mb-2 cursor-pointer text-base font-semibold lg:text-xl">
               {project.name}
             </h2>
-            <p className="font-poppins text-sm text-gray-900">
+            <p className="font-poppins text-m text-gray-900">
               {project.description}
             </p>
             <div className="mt-3 flex flex-wrap lg:mt-6">

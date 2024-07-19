@@ -1,35 +1,14 @@
 export const ProjectsList = {
   projects: [
     {
-      name: "StratAgile HRMS",
-      description:
-        "Stratagile HRMS is a web-based Human Resource Management System built using React. It is designed to streamline HR processes and enhance organizational efficiency by providing a set of features for leave management, employee tracking, alumni management, branch office organization, holiday calendars, and working day schedules.",
-      technologies: [
-        "React JS",
-        "redux",
-        "REST APIs",
-        "axios",
-        "material UI",
-        "CSS",
-        "Git",
-        "GitHub",
-        "Figma",
-      ],
+      name: "Mini golf date",
+      description: "It was my first time playing and I beat your ass ez money. What more can I say?",
+      technologies: [],
     },
     {
-      name: "Zymsi - Gym Membership Platform",
-      description:
-        "Contributed to the frontend development of Zymsi, a platform facilitating flexible gym memberships. Implemented user-friendly interface features and collaborated closely with backend and design teams.",
-      technologies: [
-        "React JS",
-        "REST APIs",
-        "axios",
-        "material UI",
-        "CSS",
-        "Git",
-        "GitHub",
-        "Figma",
-      ],
+      name: "Breakneck Ridge Trail",
+      description: "I trail-catfished you into rock scrambling on steep heights on a work day and you cried. I'm so sorry but also you were such a scardey cat lmaoooooo",
+      technologies: [],
     },
     {
       name: "Personal Portfolio",

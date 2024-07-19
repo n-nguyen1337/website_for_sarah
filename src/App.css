@@ -9,12 +9,12 @@ body {
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #c850c0;
+  background-color: #48df50;
   background-image: linear-gradient(
     43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #b57dda 0%,
+    #c85096 46%,
+    #f072d4 100%
   );
 }
 html {
