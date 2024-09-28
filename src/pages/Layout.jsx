@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import About from "./About";
+import Photos from "./Photos";
 import Poem from "./Poem";
 import Footer from "../components/Footer";
 import Project from "./Project";

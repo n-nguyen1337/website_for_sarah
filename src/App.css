@@ -5,16 +5,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: MotleyForcesRegular;
+  src: url("./fonts/MotleyForcesRegular.ttf");
+}
+@font-face {
+  font-family: BlueBubbles;
+  src: url("./fonts/BlueBubbles.otf");
+  background-color: rgb(139 92 246);
+}
+
 body {
-  font-family: "Raleway", serif !important;
+  font-family: MotleyForcesRegular;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #48df50;
   background-image: linear-gradient(
     43deg,
-    #b57dda 0%,
-    #c85096 46%,
-    #f072d4 100%
+    #dac97d 0%,
+    #c88650 46%,
+    #eef072 100%
   );
 }
 html {
@@ -35,7 +45,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #c850c0;
+  background-color: #e7e57a;
   background-image: url(../src/Assets/bars.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -54,7 +64,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color: #c850c0;
+  background-color: rgb(139 92 246);
   background-image: linear-gradient(
     43deg,
     #4158d0 0%,
@@ -65,7 +75,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: #c850c0;
+  background-color: rgb(139 92 246);
   border-radius: 8px;
 }
 
@@ -79,7 +89,7 @@ html {
   font-size: 30px;
 }
 .font-poppins {
-  font-family: "Poppins";
+  font-family: "MotleyForcesRegular";
 }
 .sticky {
   transition: all 0.3s ease-out 0s !important;
@@ -135,14 +145,14 @@ html {
 
 
 .Typewriter__wrapper {
-  font-size: 2em !important;
-  color: #191919 !important;
+  font-size: 100px !important;
+  color: rgb(139 92 246) !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #191919 !important;
+  color: rgb(139 92 246) !important;
 }
 @media (max-width: 767px) {
   .cursor{

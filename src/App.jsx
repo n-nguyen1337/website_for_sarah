@@ -8,11 +8,13 @@ import {
 import Preloader from "../src/components/Pre";
 import About from "./pages/About";
 import Poem from "./pages/Poem";
+import Photos from "./pages/Photos";
 import Cursor from "../src/components/Cursor";
 import Layout from "./pages/Layout";
 import ArchiveProjects from "./pages/ArchiveProjects";
 import NotFound from "./pages/NotFound";
 import "./App.css";
+import confetti from 'canvas-confetti';
 
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
@@ -35,6 +37,20 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  const launchConfetti = () => {
+    confetti({
+      particleCount: 500,
+      spread: 200,
+      origin: { y: 0.6 }
+    });
+  };
+
+  // Use useEffect to call the function every 500 milliseconds
+  useEffect(() => {
+    const interval = setInterval(launchConfetti, 1000);
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, []);
+
   return (
     <div className="App ">
       {/* <Cursor /> */}
@@ -47,6 +63,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projectlist" element={<ArchiveProjects />} />
             <Route path="/poem" element={<Poem />} />
+            <Route path="/photos" element={<Photos />} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>

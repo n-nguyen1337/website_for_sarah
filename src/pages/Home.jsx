@@ -12,13 +12,13 @@ import imagedeveloper from "../Assets/images/kittyfrontpage.png";
 function Home() {
   
   return (
-    <div className="mb-28 h-[350px] w-full sm:mb-0 md:h-screen">
+    <div className="mb-28 h-[500px] w-full sm:mb-0 md:h-[800px]">
       <div className="mx-auto mt-40 flex w-[90%] flex-col items-center sm:flex-row lg:mt-32 lg:w-[80%] lg:justify-between  ">
         <div className="w-full">
-          <h2 className="pb-10 text-2xl font-semibold leading-tight text-gray-900 lg:text-3xl">
+          <h2 className="pb-10 text-9xl font-medium leading-tight text-rose-500 lg:text-8xl">
             Happy Birthday Sarah!!!
           </h2>
-          <h2 className="pb-10 pt-2 text-2xl font-semibold leading-tight text-gray-900">
+          <h2 className="pb-10 pt-2 text-7xl font-medium leading-tight text-rose-500">
             {UserData.name}
           </h2>
           <TypewriterText />

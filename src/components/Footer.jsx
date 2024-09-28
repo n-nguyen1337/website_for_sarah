@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <div className="mb-2 flex items-center justify-center gap-2">
-      <div className="font-poppins text-center text-xs">
+      <div className="font-poppins text-center text-xs text text-violet-500">
         made by yours truly. I love you forever
       </div>
     </div>

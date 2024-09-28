@@ -8,13 +8,13 @@ import AboutImage from "../Assets/images/aboutcat.png";
 function About() {
   const { about } = UserData;
   return (
-    <div className="mb-24 h-[350px] w-full sm:mb-0 md:h-screen">
+    <div className="mb-24 h-[350px] w-full sm:mb-0 md:h-[600px]">
       <div className="mx-auto flex w-[90%] flex-col justify-between rounded-lg bg-transparent p-4 shadow-lg md:flex-row md:items-center">
         <div className="flex w-full flex-col md:w-[50%]">
-          <p className="pb-10 text-2xl font-semibold tracking-wide text-gray-900">
+          <p className="pb-10 text-2xl font-semibold tracking-wide text-violet-500	">
           WOOHOO WE CELEBRATIN THE COOLEST PERSON EVER
           </p>
-          <p className="font-poppins text-sm lg:text-base">{about}</p>
+          <p className="font-poppins text-sm lg:text-base text-violet-500	 ">{about}</p>
           <div className="mt-8">
             <Marquee
               gradient={false}
@@ -26,7 +26,7 @@ function About() {
             >
               {traitData.map((food, id) => (
                 <div
-                  className="ml-4 flex h-24 w-24 flex-col items-center justify-center gap-2"
+                  className="ml-4 flex h-24 w-24 flex-col items-center justify-center gap-2 text-violet-500	"
                   key={id}
                 >
                   <img

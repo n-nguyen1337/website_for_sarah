@@ -2,7 +2,7 @@ export const ProjectsList = {
   projects: [
     {
       name: "Mini golf date",
-      description: "It was my first time playing and I beat your ass ez money. What more can I say?",
+      description: "It was my first time playing and I beat your ass ez money. What more can I say? You dressed so cute and you were so quiet too",
       technologies: [],
     },
     {
@@ -11,36 +11,27 @@ export const ProjectsList = {
       technologies: [],
     },
     {
-      name: "Personal Portfolio",
-      description:
-        "My portfolio is a website built with React.js and Tailwind CSS, utilizing React Router v6 to enable easy access to multiple pages. It was designed and created entirely by myself, showcasing my skills and projects. The website is responsive and visually appealing, providing a user-friendly experience.",
-      technologies: ["React JS", "Tailwind CSS", "Git", "GitHub", "Figma"],
+      name: "Our first vacation",
+      description: "I will never forget our first trip together to Mexico. It was interesting to say the least. I am training to out swim you >:(",
+      technologies: [],
     },
     {
-      name: "Dashboard Panel",
+      name: "Korea Trip",
       description:
-        "User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration.",
-      technologies: ["React JS", "Material UI"],
+        "Going to the other side of the world was so magical with you. Exploring Seoul with you was such a fantastic adventure and I can't wait for more Asia trips. We had so much laughter and suffered in the heat together but it was all worth it. I am sorry I was mean :(",
+      technologies: [],
     },
     {
-      name: "Grid Line Builders",
+      name: "Gym sessions",
       description:
-        "Grid line builders is a static webpage built with HTML, CSS, and JavaScript. Users can see images of their work and contact information that helps to connect the home builders through a webpage. webpage builds responsive to multiple sizes of devices.",
-      technologies: ["HTML", "CSS", "JavaScript"],
+        "I love that you are my gym partner and we keep each other accountable to stay in shape. You are my other half I swear",
+      technologies: [],
     },
     {
-      name: "Netflix-Clone",
+      name: "The Great Tickle War",
       description:
-        "This project is a simplified front-end clone of Netflix. It was created with React js. It uses TMDB (The Movie Data Base ) API and uses the Axios tool. Users can click movie images with embedded YouTube trailers or related videos about the movie.",
-      technologies: [
-        "React JS",
-        "REST APIs",
-        "axios",
-        "CSS",
-        "Git",
-        "GitHub",
-        "Figma",
-      ],
+        "IDK WHO THE FUCK STARTED THIS SHIT but you need to give up already. I remember when our tickles used to be so innocent, soft, and quick. Now you literally punch me like wtf. Remember our first fr tickle fight? That was so funny, like we were literally up at night and wrestling. It was so cute and I loved that memorry so much",
+      technologies: [],
     },
     {
       name: "Olx-Clone",

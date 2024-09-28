@@ -7,12 +7,12 @@ function ArchiveProjects() {
   const navigate = useNavigate();
   const AllProjects = ProjectsList.projects;
   return (
-    <div className="h-auto w-full ">
+    <div className="h-auto w-full text-violet-500 ">
       <div
         onClick={() => {
           navigate(-1);
         }}
-        className="ml-[5%] hidden gap-2 pt-8 hover:text-white lg:flex lg:items-center "
+        className="ml-[5%] hidden gap-2 pt-8 hover:text-white lg:flex lg:items-center text-violet-500 "
       >
         <FaArrowLeft />
         <span
@@ -24,7 +24,7 @@ function ArchiveProjects() {
           Portfolio
         </span>
       </div>
-      <div className="mx-auto flex w-[90%] items-center justify-center pb-8 pt-2 lg:p-4 lg:pt-4">
+      <div className="mx-auto flex w-[90%] items-center justify-center pb-8 pt-2 lg:p-4 lg:pt-4 text-violet-500">
         <div className="font-poppins text-center  text-2xl">
           The project I work on
         </div>
